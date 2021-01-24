@@ -1,0 +1,28 @@
+.box {
+  background-color: $cream;
+  border-radius: 0.9375rem;
+  height: 22.1875rem;
+  width: 22.1875rem;
+  grid-column: span 12;
+  margin: auto;
+
+  @include media-breakpoint-up(md) {
+    grid-column: span 6;
+  }
+
+  @include media-breakpoint-up(lg) {
+    grid-column: span 4;
+  }
+
+  @include media-breakpoint-up(xl) {
+    grid-column: span 3;
+  }
+  &--outline {
+    border: 3px solid $primary;
+  }
+
+  &--filled {
+    background-color: $primary;
+    border: 3px solid $white;
+  }
+}

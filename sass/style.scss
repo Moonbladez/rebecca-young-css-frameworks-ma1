@@ -1,0 +1,26 @@
+// Configuration
+@import "../bootstrap.scss/functions";
+@import "../bootstrap.scss/variables";
+@import "../bootstrap.scss/mixins";
+@import "../bootstrap.scss/utilities";
+
+// Layout & components
+@import "../bootstrap.scss/root";
+@import "../bootstrap.scss/type";
+@import "../bootstrap.scss/containers";
+@import "../bootstrap.scss/grid";
+@import "../bootstrap.scss/nav";
+@import "../bootstrap.scss/navbar";
+@import "../bootstrap.scss/card";
+@import "../bootstrap.scss/close";
+@import "../bootstrap.scss/reboot";
+
+// Utilities
+@import "../bootstrap.scss/utilities/api";
+// scss-docs-end import-stack
+
+@import "partials/custom";
+@import "partials/global";
+@import "partials/navbar";
+@import "partials/box";
+@import "partials/footer";

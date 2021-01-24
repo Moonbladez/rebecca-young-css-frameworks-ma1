@@ -1,0 +1,19 @@
+.navbar {
+  background-color: $cream;
+
+  &__logo {
+    font-size: 2rem;
+    color: inherit;
+  }
+
+  .navigation {
+    justify-content: flex-end;
+    &__link {
+      color: inherit;
+
+      &--active {
+        color: $primary !important;
+      }
+    }
+  }
+}
